@@ -1,0 +1,105 @@
+*{
+   box-sizing: border-box;
+}
+
+html{
+   border: 5px solid green;
+   background: url('./background.webp');
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.container1{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: white;
+   border-radius: 20px;
+   margin-bottom: 50px;
+   font-size: 30px;
+
+}
+
+.welcome{
+   background: black;
+   border: 5px solid red;
+   border-radius: 80px;
+   padding: 5px;
+   width: 350px;
+   text-align: center;
+   line-height: 50px;
+   
+}
+
+
+.home{
+   text-align: center;
+   background: black;
+   border: 5px solid red;
+   border-radius: 50px;
+   padding-inline:15px;
+   margin-left: -500px;
+   word-spacing: 2px;
+}
+
+.container2{
+   display: flex;
+   justify-content: space-around;
+}
+
+.circle{
+   text-decoration: underline;
+   text-align: center;
+   padding:30px 10px;
+   font-weight: 600;
+   font-size: 18px;
+   margin-top: 170px;
+
+   height: 300px;
+   width: 300px;
+   border: 5px solid gray;
+   color: black;
+   border-radius: 50%;
+   background: rgb(28, 119, 180);
+}
+
+.form{
+   width: 300px;
+   border: 5px dashed red;
+   text-align: center;
+   margin-bottom: 50px;
+   color: white;
+}
+
+h2{
+   border-bottom: 1px solid;
+   color: black;
+}
+
+.container3{
+   width: 400px;
+   height: auto;
+   text-align: center;
+   border: 5px solid red;
+   margin-inline: auto;
+   border-radius: 25px;
+   background: black;
+   color: white;
+}
+
+.container4{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   text-align: center;
+   color: rgb(4, 4, 188);
+   margin: 20px 0px;
+}
+
+.menu{
+   background: aqua;
+   border: 2px solid green;
+   width: 250px;
+   border-radius: 30px;
+}
+
